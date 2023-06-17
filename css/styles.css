@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier new',monospace;
+    background: #282D35;
+    color: white;
+
+}
+.website-title{
+    color: tomato;
+    text-align: center;
+}
+.recipe-list li{
+    text-decoration: none;
+    padding-block: 20px;
+}
+.recipe-list li a{
+    color: #61DAFB;
+}
+.recipe-list li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.description, .ingredients, .instructions{
+    padding: 20px;
+    margin: auto;
+}
