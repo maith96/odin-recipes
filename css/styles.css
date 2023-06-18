@@ -43,9 +43,13 @@ body{
 }
 .container a{
     text-decoration: none;
-    color: white;
+    color: #282D35;
+    background: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: 100%;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 22px;
 }
 .website-title{
     color: tomato;
