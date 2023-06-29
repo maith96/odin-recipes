@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier new',monospace;
+    background: #282D35;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+.logo-text{
+    color: tomato;
+    font-size: 18px;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.description{
+    max-width: 600px;
+    margin: auto;
+}
+
+.description  img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.description, .ingredients, .instructions{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.instructions >h2, .ingredients >h2{
+    margin-bottom: 0;
+}
